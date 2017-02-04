@@ -17,7 +17,7 @@
       border: 2px solid #FF0080; }
 
 .bg {
-  background: url("/img/city_bg.png") no-repeat center fixed;
+  background: url("../img/city_bg.png") no-repeat center fixed;
   filter: grayscale(15%);
   background-size: cover;
   width: 100%;
