@@ -1,0 +1,17 @@
+.navbar-fancy{
+    margin-top: 20px;
+  .navbar-brand{
+    color: $pink;
+    font-size: 25px;
+
+
+  }
+  .navbar-nav {
+  font-size: 14px;
+
+  li {
+        border: 2px solid $pink;
+        margin: 0 20px;
+  }
+  }
+}

@@ -1,4 +1,12 @@
-a {
-  color: blue; }
+.navbar-fancy {
+  margin-top: 20px; }
+  .navbar-fancy .navbar-brand {
+    color: #FF0080;
+    font-size: 25px; }
+  .navbar-fancy .navbar-nav {
+    font-size: 14px; }
+    .navbar-fancy .navbar-nav li {
+      border: 2px solid #FF0080;
+      margin: 0 20px; }
 
 /*# sourceMappingURL=main.css.map */
