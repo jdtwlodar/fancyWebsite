@@ -1,0 +1,37 @@
+.bg{
+  background: url('/img/city_bg.png')no-repeat center fixed;
+  filter: grayscale(15%);
+      background-size: cover;
+      width: 100%;
+      height: 600px;
+      position: relative;
+      .intro{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        &-title h2{
+          font-family: $font-open-sans;
+          color: $color-white;
+          font-weight: 700;
+          font-size: 70px;
+          text-shadow:1px 1px 1px black;
+        }
+        &-desc{
+          font-family: $font-roboto;
+          color: $color-white;
+          font-weight: 400;
+          font-size: 16px;
+          text-shadow:1px 1px 2px black;
+          line-height: 30px;
+        }
+        a{
+          color: $pink;
+          font-size: 15px;
+          font-weight: 800;
+          font-family: $font-roboto;
+          margin-top: 15px;
+          cursor: pointer;
+        }
+      }
+}

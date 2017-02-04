@@ -1,17 +1,30 @@
-.navbar-fancy{
+.navbar-fancy {
     margin-top: 20px;
-  .navbar-brand{
-    color: $pink;
-    font-size: 25px;
 
+    .navbar-brand {
+        color: $pink;
+        font-size: 25px;
+    }
 
-  }
-  .navbar-nav {
-  font-size: 14px;
+    .navbar-nav {
+        font-size: 14px;
 
-  li {
-        border: 2px solid $pink;
-        margin: 0 20px;
-  }
-  }
+        li {
+            margin: 0 20px;
+
+            a {
+                font-weight: 600;
+                color: $grey;
+
+                &:hover {
+                    background: $pink;
+                    color: $color-white;
+                }
+            }
+        }
+
+        .active {
+            border: 2px solid $pink;
+        }
+    }
 }
