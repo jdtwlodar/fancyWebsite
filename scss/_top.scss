@@ -1,4 +1,5 @@
 .bg{
+  display: none;
   background: url('../img/city_bg.png')no-repeat center fixed;
   filter: grayscale(15%);
       background-size: cover;
@@ -9,6 +10,8 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
+        padding-left: 15px;
+        padding-right: 15px;
 
         &-title h2{
           font-family: $font-open-sans;
@@ -26,7 +29,7 @@
           line-height: 30px;
         }
         a{
-          color: $pink;
+          color: $color-pink;
           font-size: 15px;
           font-weight: 800;
           font-family: $font-roboto;

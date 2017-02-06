@@ -9,14 +9,22 @@
       margin: 0 20px; }
       .navbar-fancy .navbar-nav li a {
         font-weight: 600;
-        color: grey; }
+        color: grey;
+        text-align: center; }
         .navbar-fancy .navbar-nav li a:hover {
           background: #FF0080;
           color: white; }
-    .navbar-fancy .navbar-nav .active {
-      border: 2px solid #FF0080; }
+  .navbar-fancy .navbar-toggle {
+    border-color: #FF0080; }
+    .navbar-fancy .navbar-toggle span {
+      background: #FF0080; }
+
+@media (min-width: 768px) {
+  .navbar-fancy .navbar-nav li.active {
+    border: 2px solid #FF0080; } }
 
 .bg {
+  display: none;
   background: url("../img/city_bg.png") no-repeat center fixed;
   filter: grayscale(15%);
   background-size: cover;
@@ -26,7 +34,9 @@
   .bg .intro {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+    padding-left: 15px;
+    padding-right: 15px; }
     .bg .intro-title h2 {
       font-family: "Open Sans", sans-serif;
       color: white;
@@ -47,5 +57,36 @@
       font-family: "Roboto", sans-serif;
       margin-top: 15px;
       cursor: pointer; }
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #FF0080;
+  border-bottom: 16px solid #FF0080;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translateY(-50%);
+  display: block;
+  text-align: center; }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+.wrapper-bg {
+  height: 600px; }
 
 /*# sourceMappingURL=main.css.map */
