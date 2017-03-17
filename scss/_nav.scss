@@ -17,7 +17,7 @@
                 color: $grey;
                 text-align: center;
 
-                &:hover {
+                &:hover, &:active, &:focus {
                     background:$color-pink;
                     color: $color-white;
                 }

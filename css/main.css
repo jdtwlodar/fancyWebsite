@@ -11,7 +11,7 @@
         font-weight: 600;
         color: grey;
         text-align: center; }
-        .navbar-fancy .navbar-nav li a:hover {
+        .navbar-fancy .navbar-nav li a:hover, .navbar-fancy .navbar-nav li a:active, .navbar-fancy .navbar-nav li a:focus {
           background: #FF0080;
           color: white; }
   .navbar-fancy .navbar-toggle {
