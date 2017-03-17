@@ -1,0 +1,23 @@
+.services{
+  &-title{
+    text-align: center;
+      color: $color-pink;
+      font-size: 45px;
+      padding-bottom: 60px;
+     }
+  padding: 60px 0;
+  font-size: 16px;
+  .service{
+    text-align: center;
+    &-icon .fa{
+      font-size: 40px;
+    }
+    &-title{
+      padding-top: 20px;
+      color: $color-pink;
+    }
+    &-desc{
+      padding: 30px 0;
+    }
+  }
+}

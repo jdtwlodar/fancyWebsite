@@ -89,4 +89,22 @@
 .wrapper-bg {
   height: 600px; }
 
+.services {
+  padding: 60px 0;
+  font-size: 16px; }
+  .services-title {
+    text-align: center;
+    color: #FF0080;
+    font-size: 45px;
+    padding-bottom: 60px; }
+  .services .service {
+    text-align: center; }
+    .services .service-icon .fa {
+      font-size: 40px; }
+    .services .service-title {
+      padding-top: 20px;
+      color: #FF0080; }
+    .services .service-desc {
+      padding: 30px 0; }
+
 /*# sourceMappingURL=main.css.map */
