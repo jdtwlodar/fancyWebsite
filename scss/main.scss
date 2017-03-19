@@ -5,3 +5,8 @@
 @import "_loader";
 @import "_services";
 @import "_testimonials";
+@import "_animate";
+
+.not-visible {
+  visibility: hidden;
+}

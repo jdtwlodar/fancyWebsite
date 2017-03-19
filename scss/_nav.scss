@@ -1,6 +1,7 @@
 .navbar-fancy {
-    margin-top: 20px;
-
+    padding-top: 25px;
+    background-color: $color-white;
+    height: 100px;
     .navbar-brand {
         color: $color-pink;
         font-size: 25px;
@@ -8,33 +9,33 @@
 
     .navbar-nav {
         font-size: 14px;
-
         li {
             margin: 0 20px;
-
             a {
                 font-weight: 600;
                 color: $grey;
                 text-align: center;
 
-                &:hover, &:active, &:focus {
-                    background:$color-pink;
+                &:active,
+                &:focus,
+                &:hover {
+                    background: $color-pink;
                     color: $color-white;
                 }
             }
         }
-
-
     }
-    .navbar-toggle{
-      border-color:$color-pink;
-      span{
-      background:$color-pink;
-      }
+
+    .navbar-toggle {
+        border-color: $color-pink;
+
+        span {
+            background: $color-pink;
+        }
     }
 }
 @media (min-width:768px) {
-  .navbar-fancy .navbar-nav li.active {
-      border: 2px solid $color-pink;
-  }
+    .navbar-fancy .navbar-nav li.active {
+        border: 2px solid $color-pink;
+    }
 }

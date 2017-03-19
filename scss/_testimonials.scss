@@ -12,6 +12,9 @@
         .fa-comments-o{
           font-size: 30px;
           margin: 15px;
+          &:hover{
+            cursor: pointer;
+          }
         }
     }
   }
